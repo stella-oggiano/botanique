@@ -1,0 +1,581 @@
+@font-face 
+{
+    font-family: 'geliat';
+    src: url(Geliat.otf);
+}
+
+/* All html */
+
+#bot
+{
+    background-image: url(aromat.jpg);
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2
+{
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgba(250, 237, 205);
+    border-radius: 20px;
+    border: 2px rgb(233, 237, 201) solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h3
+{
+    margin-top: 80px;
+}
+
+#menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+mark
+{
+   border-radius: 10px;
+   border: 5px rgb(250, 237, 205) solid;
+   background-color: rgba(233, 237, 201);
+   padding: 7px;
+   margin: 50px;
+   color: rgb(0, 0, 0);
+}
+
+.link
+{
+    border-radius: 10px;
+    border: 5px rgb(250, 237, 205) solid;
+    background-color: rgb(233, 237, 201);
+    padding: 7px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+#menu2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+a
+{
+    color: rgb(94, 30, 110);
+    text-decoration: underline;
+}
+
+body
+{
+    background-color: rgb(254, 250, 224);
+    font-family: 'geliat', Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.float
+{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.imgtxt
+{
+    display: flex;
+}
+
+.paraimg
+{
+    flex: 6;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.under
+{
+    clear: both;
+}
+
+/*plantes.htlm*/
+
+#cactus
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.chene:nth-child(1)
+{
+    margin-top: 100px;
+}
+
+.float
+{
+    flex: 2;
+}
+
+/*fin plantes.html*/
+
+/* presentation */
+
+.bullestxt
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(250, 237, 205);
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+.mar
+{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+#intro
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.para1:nth-child(1)
+{
+    flex: 1;
+    order: 1;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.para2:nth-child(2)
+{
+    order: 2;
+    width: 40%;
+    height: 30%;
+    margin-top: 50px;
+}
+
+.para3:nth-child(3)
+{
+    order: 3;
+    align-self: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 35px;
+}
+
+.infobulle
+{
+    position: relative;
+    cursor: help;
+    color: rgb(10, 34, 56);
+}
+
+.infobulle:hover::after,
+.infobulle:focus::after
+{
+    content: attr(aria-label);
+    position: absolute;
+    font-size: large;
+    background: rgb(183, 183, 164);
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 3px;
+    top: -2.4em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    white-space: wrap;
+    font-size: small;
+}
+
+#etude
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#nourrir
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#substances
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#changements
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#process
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+/*fin presentation*/
+
+.titre-site1 {
+    background-image: url(aromat.jpg); 
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .titre-site {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+    .navigationheader {
+      width: 30%;
+      list-style: none;
+      margin: 2em auto 2em;
+      padding: 0;
+      border:ridge 7px #45340d
+      
+    }
+  
+    .navigationheader li {
+      color: black ;
+    }
+  
+    .navigationheader li a {
+      
+      display: flex ;
+      justify-content: center ;
+      color:black ; 
+      line-height: 1em ;
+      text-align: center ;
+      padding: 4px ;
+    }
+    .navigationheader li a:hover, .navigationheader li a:focus, .navigationheader li a:active {
+      background: rgb(250,237,205);
+      text-decoration: underline ;
+      text-decoration-color:#45340d;
+      color : black;
+      
+    }
+  
+    /*HEADER fin */
+  
+  
+  .navigationfooter li {
+      display: inline-block;
+      vertical-align: center;
+      line-height: 2em ;
+      padding: 4px ;
+      background-color: rgb(250,237,205) ;
+      border:ridge 1px #45340d
+  }
+  .navigationfooter li a{
+      color:black;
+      
+      
+  }
+  .navigationfooter {
+      display:flex;
+      justify-content: space-around;
+      margin: 5% 10% 5% 10%; 
+      list-style: none;
+  
+      
+    }
+    .navigationfooter li a:hover, .navigationfooter li a:focus, .navigationfooter li a:active {
+      text-decoration: underline;
+      text-decoration-color: #45340d;
+      
+       
+  
+    }
+   
+    /*FOOTER fin */
+  
+    /*LEGUMES*/
+  
+    .legumes-presentation { display: flex;
+      background-color: rgb(250,237,205);
+      border:ridge 7px #45340d;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 30px;
+      margin: auto;
+      margin-top: 5%;
+      text-align: center;
+      height: 250px;
+      width: 1000px;
+      
+    }
+  
+  /* Mise en forme texte catégorie*/
+  .legumes-presentation h1, .legumes-presentation p { 
+      padding: 1%;
+      color:black;
+      border-radius: 10px;
+  }
+  
+  .legumes-s1, .legumes-s2, .legumes-s3, .legumes-s4 { display: flex;
+           justify-content: space-around;
+           margin: 2% auto;
+           padding: 1em ;
+           
+  
+  }
+  
+  
+  
+  .legumes-s1 p, .legumes-s2 p {
+    text-align: center;
+    vertical-align:bottom;
+    margin-top: 10%;
+  
+  }
+  .legumes-s1 img, .legumes-s2 img {
+     padding: auto;
+     margin: auto;
+     border: ridge 5px rgb(254,250,224);
+     
+    
+  }
+   
+  
+  
+  .legumes-s1 h1, .legumes-s2 h1 {
+  text-align:center;
+  padding: 3% 0%;
+  border-radius: 50px;
+  border: solid 3px #45340d;
+  background-color: rgb(254,250,224);
+  color: black;
+  }
+      
+  
+  
+  
+  /* Mise en forme texte catégorie END */
+  
+  .legumes-feuilles, .legumes-tiges, .legumes-bulbes, .legumes-fleurs, .legumes-racines, .legumes-fruits, .legumes-tubercules, .legumes-fines-herbes 
+      
+  {display: flex;
+      background-color: rgb(250,237,205);
+      border:ridge 7px #45340d;
+      color: black;
+      border-radius: 30px;
+      flex-direction: column;
+      text-align: center;
+      padding: 1em ;
+      height: 600px;
+      width: 250px; }
+  
+  
+  /*Arbustes*/
+  
+  .arbustes-presentation { 
+     background-color: rgb(250,237,205);
+      color: black;
+      border:ridge 10px #45340d;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      height: 360px;
+      width: 1100px;
+      
+  }
+  
+  .arbustes-s1, .arbustes-s2, .arbuste-s3{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
+    padding: 1em ;
+    
+    
+  }
+  
+  
+  .arbustes-s1 h1, .arbustes-s2 h1, .arbuste-s3 h1 {
+      border-radius: 50px;
+      border: solid 3px #45340d;
+      background-color: rgb(254,250,224);
+      color: black;
+  
+  
+  }
+  
+  .a-libre, .a-taillée, .a-fleurie, .a-fruitière, .a-persistante, .a-variée {
+    display: flex;
+    background-color: rgb(250,237,205);
+    color: black;
+    border-radius: 30px;
+    border:groove 10px #45340d ;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em ;
+    height: 1200px;
+    width: 300px; 
+  }
+  /*section fin arbustes*/
+  
+  /*  arbuste images/liste */
+  .l-a-libre, .l-a-taillée, .l-a-fleurie , .l-a-fruitièrev, .l-a-persistante, .l-a-variée {
+    margin: 20px;
+    flex-direction: column;
+  }
+  
+  .l-a-libre img, .l-a-taillée img, .l-a-fleurie img, .l-a-fruitière img, .l-a-persistante img, .l-a-variée img 
+  { display: flex;
+    border: ridge 5px #FBFEEC;
+  }
+  
+  .l-a-libre li, .l-a-taillée li, .l-a-fleurie li, .l-a-fruitière li, .l-a-persistante li 
+  {
+    margin: 10px;
+  
+  }
+  .l-a-variée li {
+    margin: 20px;
+  }
+  .l-a-variée {
+    margin: 30px
+  }
+  
+  /*arbuste fin */
+  
+  /*Accueil*/
+  
+  .accueil-p {
+      background-color: rgb(250,237,205);
+       color:black;
+      border:ridge 10px #45340d;
+       flex-direction: column;
+       justify-content: center;
+       border-radius: 30px;
+       margin: auto;
+       padding: 2%;
+       text-align: center;
+       height: 100px;
+       width: 600px;
+       
+  }
+  
+  .accueil-p h1, .accueil-s-2 h1 {
+    border-radius: 30px;
+    border: solid 3px #45340d;
+    background-color: #FBFEEC;
+    color: black;
+    text-align: center;
+  
+  }
+  
+  .accueil-fruit , .accueil-legume   {
+  display: flex;
+  background-color: rgb(250,237,205);
+  color:black;
+  border-radius: 30px;
+  border:groove 10px #45340d ;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em ;
+  height: 2550px;
+  width: 550px; }
+  
+  
+  .accueil-s-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+  }
+  
+  .accueil-s-2 li {
+    margin: 15px;
+   
+  }
+  
+  .accueil-s-2 img {
+    display: flex;
+    border: ridge 5px rgb(254,250,224);
+    margin:auto;
+    
+  }
+
